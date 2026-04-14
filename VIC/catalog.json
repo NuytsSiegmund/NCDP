@@ -1,0 +1,27 @@
+{
+  "type": "Catalog",
+  "id": "VIC",
+  "stac_version": "1.1.0",
+  "description": "UAV coastal survey data from Victoria.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "National Coastal Data Program"
+    },
+    {
+      "rel": "child",
+      "href": "./PortFairy/collection.json",
+      "type": "application/json",
+      "title": "Port Fairy"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "National Coastal Data Program"
+    }
+  ],
+  "title": "Victoria"
+}

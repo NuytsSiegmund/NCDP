@@ -1,0 +1,174 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NCDP-VIC-PortFairy-20180605",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          142.2496319,
+          -38.37105858
+        ],
+        [
+          142.2706922,
+          -38.37105858
+        ],
+        [
+          142.2706922,
+          -38.36223822
+        ],
+        [
+          142.2496319,
+          -38.36223822
+        ],
+        [
+          142.2496319,
+          -38.37105858
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    142.2496319,
+    -38.37105858,
+    142.2706922,
+    -38.36223822
+  ],
+  "properties": {
+    "datetime": "2018-06-05T00:00:00Z",
+    "title": "Port Fairy \u2014 20180605",
+    "location": "Port Fairy",
+    "state": "VIC",
+    "region": "Victoria",
+    "purpose": "Mapping Coastal Change",
+    "description": "Mapping was conducted as part of the Victorian Coastal Monitoring Program to examine time-series coastal change.",
+    "tags": [
+      "Coastal",
+      "Erosion",
+      "Change",
+      "Port Fairy",
+      "Revetment"
+    ],
+    "access_level": "Open",
+    "license": "CC-BY-4",
+    "airframe": "DJI Phantom 4 Pro V2",
+    "airframe_type": "Multirotor < 2 kg",
+    "sensor_model": "FC6310",
+    "sensor_data_type": "RGB-Imagery (.jpg)",
+    "sensor_resolution_mp": 20.0,
+    "sensor_fov": 73.74,
+    "sensor_focal_length_mm": 8.8,
+    "organisation": "Deakin University",
+    "organisation_doi": "https://ror.org/02czsnj07",
+    "attribution": "This data was collected by Deakin University as part of the Victorian Coastal Monitoring System (VCMP)",
+    "funding": "The Department of Environment, Land, Water and Planning (DELWP), Victoria",
+    "point_of_contact": "Blake Allan",
+    "point_of_contact_id": "https://orcid.org/0000-0003-0101-3412",
+    "pilot_in_command": "Blake Allan",
+    "flying_height_m": 100.0,
+    "estimated_gsd_m": 2.74,
+    "total_rgb_images": 578.0,
+    "total_flights": 3.0,
+    "start_time_utc": "22:54:57",
+    "end_time_utc": "0:17:35",
+    "utc_offset_hrs": "10:00",
+    "cloud_type": "Missing",
+    "wind_speed_knots": "Missing",
+    "wind_direction": "Missing",
+    "processing_platform": "Pix4Dmapper version 4.6.4",
+    "processing_date": "11/03/2021 15:51",
+    "processing_area_km2": 0.527,
+    "processing_rmse_x_m": 0.027513,
+    "processing_rmse_y_m": 0.034405,
+    "processing_rmse_z_m": 0.045289,
+    "processing_rmse_overall_m": 0.034,
+    "gcps_used": "yes",
+    "gcp_type": "Propeller AeroPoint V1",
+    "gcp_count": 23.0,
+    "orthomosaic_gsd_m": 0.0249,
+    "orthomosaic_epsg": 28354.0,
+    "dsm_gsd_m": 0.0249,
+    "dsm_horizontal_epsg": 28354.0,
+    "dsm_vertical_epsg": 5711.0,
+    "point_cloud_n_points": 51760733.0,
+    "coastal_works_occurred": "Unknown",
+    "comments": "N/A",
+    "has_orthomosaic": true,
+    "has_dsm": true,
+    "has_point_cloud": true,
+    "has_processing_report": true
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "National Coastal Data Program"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Port Fairy"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Port Fairy"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "../20180605/thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "Orthomosaic thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "orthomosaic": {
+      "href": "/Volumes/GIS-Res/UAV_setup/NCI_READY/20180605-PortFairy/L3/20180605-PortFairy_Orthomosaic-GDA94Z54.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Orthomosaic GeoTIFF \u2014 20180605-PortFairy_Orthomosaic-GDA94Z54.tif",
+      "gsd": 0.0249,
+      "file:size": 1683410560,
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "dsm": {
+      "href": "/Volumes/GIS-Res/UAV_setup/NCI_READY/20180605-PortFairy/L3/20180605-PortFairy_DSM-GDA94Z54-AHD09.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Digital Surface Model GeoTIFF \u2014 20180605-PortFairy_DSM-GDA94Z54-AHD09.tif",
+      "gsd": 0.0249,
+      "file:size": 1473787472,
+      "roles": [
+        "data",
+        "elevation"
+      ]
+    },
+    "point_cloud": {
+      "href": "/Volumes/GIS-Res/UAV_setup/NCI_READY/20180605-PortFairy/L3/20180605-PortFairy_PointCloud-GDA94Z54-AHD09-cleaned.las",
+      "type": "application/vnd.las",
+      "title": "Point Cloud LAS \u2014 20180605-PortFairy_PointCloud-GDA94Z54-AHD09-cleaned.las",
+      "file:size": 1759866142,
+      "point_count": 51760733.0,
+      "roles": [
+        "data"
+      ]
+    },
+    "processing_report": {
+      "href": "/Volumes/GIS-Res/UAV_setup/NCI_READY/20180605-PortFairy/L2/20180605-PortFairy_ProcessingReport.pdf",
+      "type": "application/pdf",
+      "title": "Processing Report \u2014 20180605-PortFairy_ProcessingReport.pdf",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "PortFairy"
+}

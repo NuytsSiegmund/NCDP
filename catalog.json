@@ -1,21 +1,21 @@
 {
   "type": "Catalog",
-  "id": "ncdp_coastal_surveys",
+  "id": "NCDP",
   "stac_version": "1.1.0",
-  "description": "STAC catalog for NCDP coastal UAV survey data",
+  "description": "STAC catalog for UAV coastal survey data collected by Deakin University and partners as part of the National Coastal Data Program (NCDP).",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "NCDP Coastal Surveys"
+      "title": "National Coastal Data Program"
     },
     {
       "rel": "child",
-      "href": "./uav_coastal_surveys/collection.json",
+      "href": "./VIC/catalog.json",
       "type": "application/json",
-      "title": "NCDP UAV Coastal Surveys"
+      "title": "Victoria"
     }
   ],
-  "title": "NCDP Coastal Surveys"
+  "title": "National Coastal Data Program"
 }
