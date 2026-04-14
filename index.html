@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCDP Coastal UAV Surveys — STAC Catalog</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f6f9;
+      color: #222;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      max-width: 640px;
+      width: 100%;
+      padding: 2.5rem 2.5rem 2rem;
+    }
+    h1 { font-size: 1.6rem; margin-bottom: 0.4rem; color: #1a3a5c; }
+    .subtitle { color: #555; font-size: 0.95rem; margin-bottom: 1.5rem; }
+    p { line-height: 1.6; margin-bottom: 1rem; color: #444; }
+    .btn-group { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1.5rem; }
+    a.btn {
+      display: block;
+      padding: 0.85rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-align: center;
+      transition: opacity 0.15s;
+    }
+    a.btn:hover { opacity: 0.85; }
+    .btn-primary { background: #1a73e8; color: white; }
+    .btn-secondary { background: #e8f0fe; color: #1a3a5c; }
+    .btn-outline { border: 2px solid #ccc; color: #444; background: white; }
+    .meta { margin-top: 1.5rem; font-size: 0.82rem; color: #888; border-top: 1px solid #eee; padding-top: 1rem; }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      border-radius: 4px;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-right: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>NCDP Coastal UAV Surveys</h1>
+    <p class="subtitle">SpatioTemporal Asset Catalog (STAC) — Deakin University</p>
+
+    <p>
+      This catalog contains UAV coastal survey data collected as part of the
+      <strong>National Coastal Data Program (NCDP)</strong>, including
+      orthomosaics, digital surface models (DSMs), and point clouds from
+      repeated surveys along the Victorian coastline.
+    </p>
+
+    <p>
+      <span class="badge">Open</span>
+      <span class="badge">CC-BY-4</span>
+      <span class="badge">STAC 1.1.0</span>
+    </p>
+
+    <div class="btn-group">
+      <a class="btn btn-primary"
+         href="https://radiantearth.github.io/stac-browser/#/external/nuytssiegmund.github.io/NCDP/catalog.json"
+         target="_blank" rel="noopener">
+        Browse catalog interactively (STAC Browser)
+      </a>
+      <a class="btn btn-secondary" href="catalog.json" target="_blank" rel="noopener">
+        View catalog.json
+      </a>
+      <a class="btn btn-outline"
+         href="https://github.com/NuytsSiegmund/NCDP"
+         target="_blank" rel="noopener">
+        GitHub repository
+      </a>
+    </div>
+
+    <div class="meta">
+      Organization: Deakin University &nbsp;|&nbsp;
+      Contact: <a href="https://orcid.org/0000-0003-0101-3412">Blake Allan (ORCID)</a>
+    </div>
+  </div>
+</body>
+</html>
