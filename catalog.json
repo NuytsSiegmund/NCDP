@@ -1,0 +1,21 @@
+{
+  "type": "Catalog",
+  "id": "ncdp_coastal_surveys",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for NCDP coastal UAV survey data",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "NCDP Coastal Surveys"
+    },
+    {
+      "rel": "child",
+      "href": "./uav_coastal_surveys/collection.json",
+      "type": "application/json",
+      "title": "NCDP UAV Coastal Surveys"
+    }
+  ],
+  "title": "NCDP Coastal Surveys"
+}

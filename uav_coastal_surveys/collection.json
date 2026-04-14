@@ -1,0 +1,117 @@
+{
+  "type": "Collection",
+  "id": "uav_coastal_surveys",
+  "stac_version": "1.1.0",
+  "description": "UAV coastal survey data collected by Deakin University and partners as part of the National Coastal Data Program (NCDP). Includes orthomosaics, DSMs, and point clouds.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NCDP Coastal Surveys"
+    },
+    {
+      "rel": "item",
+      "href": "./20180314-PortFairy/20180314-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180327-PortFairy/20180327-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180423-PortFairy/20180423-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180605-PortFairy/20180605-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180801-PortFairy/20180801-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180913-PortFairy/20180913-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20181024-PortFairy/20181024-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20181204-PortFairy/20181204-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190225-PortFairy/20190225-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190412-PortFairy/20190412-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190607-PortFairy/20190607-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190802-PortFairy/20190802-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190918-PortFairy/20190918-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191030-PortFairy/20191030-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191211-PortFairy/20191211-PortFairy.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "NCDP Coastal Surveys"
+    }
+  ],
+  "title": "NCDP UAV Coastal Surveys",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          142.24275,
+          -38.389621,
+          142.2860399,
+          -38.36123914
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-14T00:00:00Z",
+          "2019-12-11T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "various"
+}

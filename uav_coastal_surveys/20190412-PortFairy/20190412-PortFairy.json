@@ -1,0 +1,149 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "20190412-PortFairy",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          142.2498564,
+          -38.37122514
+        ],
+        [
+          142.2710582,
+          -38.37122514
+        ],
+        [
+          142.2710582,
+          -38.36209133
+        ],
+        [
+          142.2498564,
+          -38.36209133
+        ],
+        [
+          142.2498564,
+          -38.37122514
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    142.2498564,
+    -38.37122514,
+    142.2710582,
+    -38.36209133
+  ],
+  "properties": {
+    "datetime": "2019-04-12T00:00:00Z",
+    "location": "Port Fairy",
+    "region": "Victoria",
+    "purpose": "Mapping Coastal Change",
+    "description": "Mapping was conducted as part of the Victorian Coastal Monitoring Program to examine time-series coastal change.",
+    "tags": [
+      "Coastal",
+      "Erosion",
+      "Change",
+      "Port Fairy",
+      "Revetment"
+    ],
+    "access_level": "Open",
+    "license": "CC-BY-4",
+    "airframe": "DJI Phantom 4 Pro V2",
+    "airframe_type": "Multirotor < 2 kg",
+    "sensor_model": "FC6310",
+    "sensor_data_type": "RGB-Imagery (.jpg)",
+    "sensor_resolution_mp": 20.0,
+    "sensor_fov": 73.74,
+    "sensor_focal_length_mm": 8.8,
+    "organisation": "Deakin University",
+    "organisation_doi": "https://ror.org/02czsnj07",
+    "attribution": "This data was collected by Deakin University as part of the Victorian Coastal Monitoring System (VCMP)",
+    "funding": "The Department of Environment, Land, Water and Planning (DELWP), Victoria",
+    "point_of_contact": "Blake Allan",
+    "point_of_contact_id": "https://orcid.org/0000-0003-0101-3412",
+    "pilot_in_command": "Citizen Scientists",
+    "flying_height_m": 99.99,
+    "estimated_gsd_m": 2.74,
+    "total_rgb_images": 413.0,
+    "total_flights": 3.0,
+    "start_time_utc": "22:54:14",
+    "end_time_utc": "0:10:57",
+    "utc_offset_hrs": "10:00",
+    "cloud_type": "Missing",
+    "wind_speed_knots": "Missing",
+    "wind_direction": "Missing",
+    "processing_platform": "Pix4Dmapper version 4.6.4",
+    "processing_date": "23/03/2021 15:47",
+    "processing_area_km2": 0.475,
+    "processing_rmse_x_m": 0.076249,
+    "processing_rmse_y_m": 0.065386,
+    "processing_rmse_z_m": 0.062617,
+    "processing_rmse_overall_m": 0.067,
+    "gcps_used": "yes",
+    "gcp_type": "Propeller AeroPoint V1",
+    "gcp_count": 18.0,
+    "gcp_horizontal_epsg": 28354.0,
+    "orthomosaic_gsd_m": 0.02438,
+    "orthomosaic_epsg": 28354.0,
+    "dsm_gsd_m": 0.02438,
+    "dsm_horizontal_epsg": 28354.0,
+    "dsm_vertical_epsg": 5711.0,
+    "point_cloud_n_points": 42977042.0,
+    "point_cloud_horizontal_epsg": 28354.0,
+    "coastal_works_occurred": "Unknown",
+    "coastal_works_description": "N/A",
+    "comments": "N/A"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "NCDP Coastal Surveys"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NCDP UAV Coastal Surveys"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NCDP UAV Coastal Surveys"
+    }
+  ],
+  "assets": {
+    "orthomosaic": {
+      "href": "../20190412-PortFairy_Orthomosaic-GDA94Z54.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Orthomosaic (GeoTIFF)",
+      "roles": [
+        "data",
+        "visual"
+      ]
+    },
+    "dsm": {
+      "href": "../20190412-PortFairy_DSM-GDA94Z54-AHD09.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Digital Surface Model (GeoTIFF)",
+      "roles": [
+        "data",
+        "elevation"
+      ]
+    },
+    "point_cloud": {
+      "href": "../20190412-PortFairy_PointCloud-GDA94Z54-AHD09-cleaned.las",
+      "type": "application/octet-stream",
+      "title": "Point Cloud (.las)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "uav_coastal_surveys"
+}
